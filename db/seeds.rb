@@ -4,7 +4,7 @@
 	)
 end
 
-puts "3 Topoics created"
+puts "3 Topics created"
 
 10.times do |blog|
 	Blog.create!(
@@ -50,3 +50,11 @@ end
 end
 
 puts "9 portfolio items created"
+
+3.times do |technology|
+	Portfolio.last.technologies.create!(
+		name: "Technology #{technology}"
+	)
+end
+
+puts "9 technologies created"
