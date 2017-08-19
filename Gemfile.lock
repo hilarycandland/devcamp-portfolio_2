@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/hilarycandland/candland_view_tool
+  revision: e280e7c91093f84aaf48a5b288467a535075d270
+  specs:
+    candland_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -185,6 +191,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap (~> 4.0.0.alpha6)
   byebug
+  candland_view_tool!
   coffee-rails (~> 4.2)
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
