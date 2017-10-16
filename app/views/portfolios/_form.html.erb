@@ -1,10 +1,10 @@
-<h1>Create a new portfolio Item</h1>
-   <div class="field">
+<%= form_for(@portfolio_item) do |f| %>
+  <div class="field">
     <%= f.label :title %>
     <%= f.text_field :title %>
   </div>
 
-    <div class="field">
+  <div class="field">
     <%= f.label :subtitle %>
     <%= f.text_field :subtitle %>
   </div>
@@ -19,13 +19,12 @@
       <li>
         <%= technology_form.label :name %>
         <%= technology_form.text_field :name %>
-      </ul>
+      </li>
     <% end %>
-  </ul> 
+  </ul>
 
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
-
 
